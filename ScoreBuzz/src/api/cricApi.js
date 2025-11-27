@@ -2,9 +2,8 @@ import axios from 'axios';
 
 
 const BASE = 'https://cricbuzz-cricket.p.rapidapi.com';
-const RAPIDAPI_KEY = import.meta.env.VITE_RAPIDAPI_KEY || 'b529388dabmsh3ecad4f3dffa3afp13dbf7jsna02bd8a6a3c1';//b529388dabmsh3ecad4f3dffa3afp13dbf7jsna02bd8a6a3c1
-const RAPIDAPI_HOST = import.meta.env.VITE_RAPIDAPI_HOST || 'cricbuzz-cricket.p.rapidapi.com';
-
+const RAPIDAPI_KEY = import.meta.env.VITE_RAPIDAPI_KEY 
+const RAPIDAPI_HOST = import.meta.env.VITE_RAPIDAPI_HOST ;
 const api = axios.create({
   baseURL: BASE,
   headers: {
